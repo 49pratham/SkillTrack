@@ -1,0 +1,53 @@
+PS C:\Users\itspr\OneDrive\Desktop\skilltrack> cd dashboard
+PS C:\Users\itspr\OneDrive\Desktop\skilltrack\dashboard> npm install
+
+added 67 packages, and audited 68 packages in 1m
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+1 critical severity vulnerability
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS C:\Users\itspr\OneDrive\Desktop\skilltrack\dashboard> npm run dev
+
+> dashboard@1.0.0 dev
+> next dev
+
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+ ✓ Ready in 4.3s
+ ○ Compiling / ...
+ ✓ Compiled / in 10.5s (917 modules)
+ GET / 200 in 12204ms
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 8.3s (919 modules)
+ GET /dashboard/public/data/students.json 404 in 8333ms
+ GET / 200 in 130ms
+ GET /dashboard/public/data/students.json 404 in 18ms
+ ✓ Compiled in 486ms (917 modules)
+ ✓ Compiled in 424ms (917 modules)
+PS C:\Users\itspr\OneDrive\Desktop\skilltrack\dashboard>
+      npm run dev
+
+> dashboard@1.0.0 dev
+> next dev
+
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 4.8s
+ ○ Compiling / ...
+ ✓ Compiled / in 8.5s (917 modules)
+ GET / 200 in 10033ms
