@@ -17,7 +17,7 @@ This project analyzes synthetic student data, builds ML models to predict perfor
 ### 1. Backend (Data + Notebook)
 ```bash
 # Clone repo
-git clone <your-repo-url>
+git clone https://github.com/49pratham/SkillTrack.git
 cd cognitive-dashboard
 
 # Python env
